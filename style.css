@@ -650,9 +650,56 @@ button{
     margin-top:60px;
 
     text-align:center;
+   
+/* ==========================================
+   SECTION OF PROJECTS.HTML
+========================================== */
+   
+}
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+    margin:60px 0;
 
 }
 
+.stat-card{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+}
+
+.stat-card h2{
+
+    font-size:2.5rem;
+
+    color:var(--primary);
+
+}
+
+.stat-card p{
+
+    margin-top:8px;
+
+    color:var(--text-secondary);
+
+}
 
 /* ==========================================
    CONTACT
@@ -990,7 +1037,11 @@ footer{
         font-size:1.2rem;
 
     }
+   .stats-grid{
 
+    grid-template-columns:repeat(2,1fr);
+
+   }
 }
 
 /* ==========================================
