@@ -1,43 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vincent Christopher Lam</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
+    <title>Vincent Christopher Lam | System Analyst</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
+
 <body>
-    <header>
-        <h1>Welcome</h1>
-        <p>Hello! I'm <span id="name">Vincent Christopher Lam</span>, a System Analyst</p>
-        <button onclick="changeTheme()">Toggle Light Mode</button>
-    </header>
-    
-     <section id="projects">
-        <h2>About Me</h2>
-        <p>A highly adaptable and detail-oriented Information Systems graduate with experience in Atlassian solutions implementation, SDLC optimization, and data annotation. Skilled in understanding customer requirements, analyzing issues, and delivering effective configurations across banking, telecommunications, and government sectors. Experienced in Jira and Confluence administration, system migrations between Server, Data Center, and Cloud, as well as service desk support. Demonstrated ability to enhance workflows, manage integrations, and support large-scale enterprise projects.</p>
-        <ul>
-            <li>🚀 Project 1: <a href="#">Portfolio Website</a></li>
-            <li>🛠️ Project 2: <a href="#">Task Manager App</a></li>
-        </ul>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>🚀 Project 1: <a href="#">Portfolio Website</a></li>
-            <li>🛠️ Project 2: <a href="#">Task Manager App</a></li>
-        </ul>
-    </section>
 
-    <footer>
-        <p>Email: <a href="mailto:vcl3303@gmail.com">vcl3303@gmail.com</a></p>
-        <p>Linkedin: <a href="https://www.linkedin.com/in/vincent-c-lam/">https://www.linkedin.com/in/vincent-c-lam/</a></p>
-    </footer>
+<!-- Navigation -->
+<nav>
+    <div class="logo">Vincent Lam</div>
 
-    <script src="script.js"></script> <!-- Link to JavaScript file -->
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button onclick="changeTheme()">🌙</button>
+</nav>
+
+<!-- Hero -->
+<header class="hero">
+
+    <div class="hero-text">
+
+        <p class="subtitle">Hello, I'm</p>
+
+        <h1>Vincent Christopher Lam</h1>
+
+        <h2>System Analyst & Atlassian Consultant</h2>
+
+        <p>
+            Experienced in Jira, Confluence, Service Management,
+            Cloud Migration, Enterprise Solutions, and Digital Transformation.
+        </p>
+
+        <div class="buttons">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="Vincent_Christopher_Lam_CV.pdf" class="btn secondary">
+                Download CV
+            </a>
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="images/profile.jpg" alt="Vincent Christopher Lam">
+    </div>
+
+</header>
+
+<!-- About -->
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        I am an Information Systems graduate with professional experience
+        implementing Atlassian solutions across banking,
+        telecommunications, and government sectors.
+
+        I specialize in Jira Administration, Confluence,
+        Cloud Migration, Data Center deployment,
+        workflow automation, API integrations,
+        and enterprise technical support.
+    </p>
+
+</section>
+
+<!-- Skills -->
+<section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skill-grid">
+
+        <div class="card">
+            <i class="fa-brands fa-atlassian"></i>
+            <h3>Atlassian</h3>
+            <p>Jira • Confluence • JSM • Bitbucket</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-cloud"></i>
+            <h3>Cloud</h3>
+            <p>AWS • Azure • Atlassian Cloud Migration</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-gears"></i>
+            <h3>Automation</h3>
+            <p>REST API • Groovy • Workflow Design</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Business Analysis</h3>
+            <p>Requirement Gathering • SDLC • Documentation</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Experience -->
+<section id="experience">
+
+    <h2>Experience</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>System Analyst</h3>
+            <span>Atlassian Consultant</span>
+
+            <p>
+                Implemented Jira and Confluence solutions,
+                migrated enterprise environments,
+                configured workflows,
+                integrated external systems,
+                and supported production deployments.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Projects -->
+<section id="projects">
+
+    <h2>Featured Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+
+            <h3>Jira Cloud Migration</h3>
+
+            <p>
+                Migrated enterprise Jira Server to Atlassian Cloud while
+                preserving workflows, users, permissions,
+                and custom configurations.
+            </p>
+
+            <a href="#">View Details</a>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>Service Management Portal</h3>
+
+            <p>
+                Built customized Jira Service Management portals
+                with automation, SLAs, and approval workflows.
+            </p>
+
+            <a href="#">View Details</a>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>Workflow Automation</h3>
+
+            <p>
+                Designed workflow automations using JMWE,
+                ScriptRunner, REST APIs, and custom integrations.
+            </p>
+
+            <a href="#">View Details</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact -->
+<section id="contact">
+
+    <h2>Let's Connect</h2>
+
+    <p>
+        Interested in collaborating or discussing enterprise solutions?
+    </p>
+
+    <div class="socials">
+
+        <a href="mailto:vcl3303@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/vincent-c-lam/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 Vincent Christopher Lam
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
