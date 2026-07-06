@@ -575,6 +575,20 @@ button{
 
 }
 
+.project-section{
+    margin-top:25px;
+}
+
+.project-section h4{
+    margin-bottom:12px;
+    color:var(--primary);
+}
+
+.project-section p,
+.project-section ul{
+    margin-bottom:0;
+}
+
 /* ==========================================
    CONTACT
 ========================================== */
