@@ -483,7 +483,7 @@ button{
    PROJECTS
 ========================================== */
 
-.project-grid{
+.featured-project-grid{
 
     display:grid;
 
@@ -493,7 +493,7 @@ button{
 
 }
 
-.project-card{
+.featured-project-card{
 
     background:var(--surface);
 
@@ -513,7 +513,7 @@ button{
 
 }
 
-.project-card::before{
+.featured-project-card::before{
 
     content:"";
 
@@ -535,19 +535,19 @@ button{
 
 }
 
-.project-card:hover::before{
+.featured-project-card:hover::before{
 
     transform:scaleX(1);
 
 }
 
-.project-card:hover{
+.featured-project-card:hover{
 
     transform:translateY(-8px);
 
 }
 
-.project-card h3{
+.featured-project-card h3{
 
     margin-bottom:20px;
 
@@ -555,13 +555,13 @@ button{
 
 }
 
-.project-card p{
+.featured-project-card p{
 
     margin-bottom:20px;
 
 }
 
-.project-card a{
+.featured-project-card a{
 
     color:var(--primary);
 
@@ -569,13 +569,13 @@ button{
 
 }
 
-.project-card a:hover{
+.featured-project-card a:hover{
 
     text-decoration:underline;
 
 }
 
-.project-section{
+.featured-project-section{
 
     margin-top:25px;
 
@@ -585,7 +585,7 @@ button{
 
 }
 
-.project-section h4{
+.featured-project-section h4{
 
     margin-bottom:12px;
 
@@ -595,13 +595,13 @@ button{
 
 }
 
-.project-section p{
+.featured-project-section p{
 
     color:var(--text-secondary);
 
 }
 
-.project-section ul{
+.featured-project-section ul{
 
     padding-left:20px;
 
@@ -609,7 +609,7 @@ button{
 
 }
 
-.project-section li{
+.featured-project-section li{
 
     margin-bottom:10px;
 
@@ -963,7 +963,7 @@ footer{
 
     }
 
-    .project-card{
+    .featured-project-card{
 
         padding:25px;
 
@@ -998,7 +998,7 @@ footer{
 ========================================== */
 
 .card,
-.project-card,
+.featured-project-card,
 .about-card,
 .contact-card{
 
@@ -1010,7 +1010,7 @@ footer{
 }
 
 .card:hover,
-.project-card:hover,
+.featured-project-card:hover,
 .about-card:hover,
 .contact-card:hover{
 
@@ -1055,7 +1055,7 @@ footer{
 a,
 button,
 .card,
-.project-card{
+.featured-project-card{
 
     transition:all .3s ease;
 
