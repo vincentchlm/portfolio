@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Vincent Christopher Lam | System Analyst</title>
 
     <link rel="stylesheet" href="style.css">
@@ -10,224 +12,324 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
 
-<!-- Navigation -->
-<nav>
-    <div class="logo">Vincent Lam</div>
+    <!-- ================= NAVIGATION ================= -->
 
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+    <nav class="navbar">
 
-    <button onclick="changeTheme()">🌙</button>
-</nav>
-
-<!-- Hero -->
-<header class="hero">
-
-    <div class="hero-text">
-
-        <p class="subtitle">Hello, I'm</p>
-
-        <h1>Vincent Christopher Lam</h1>
-
-        <h2>System Analyst & Atlassian Consultant</h2>
-
-        <p>
-            Experienced in Jira, Confluence, Service Management,
-            Cloud Migration, Enterprise Solutions, and Digital Transformation.
-        </p>
-
-        <div class="buttons">
-            <a href="#projects" class="btn primary">View Projects</a>
-            <a href="Vincent_Christopher_Lam_CV.pdf" class="btn secondary">
-                Download CV
-            </a>
+        <div class="logo">
+            Vincent Lam
         </div>
 
-    </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-    <div class="hero-image">
-        <img src="images/profile.jpg" alt="Vincent Christopher Lam">
-    </div>
+        <button id="themeBtn" onclick="changeTheme()">
+            🌙
+        </button>
 
-</header>
+    </nav>
 
-<!-- About -->
-<section id="about">
+    <!-- ================= HERO ================= -->
 
-    <h2>About Me</h2>
+    <section id="home" class="hero">
 
-    <p>
-        I am an Information Systems graduate with professional experience
-        implementing Atlassian solutions across banking,
-        telecommunications, and government sectors.
+        <div class="hero-text">
 
-        I specialize in Jira Administration, Confluence,
-        Cloud Migration, Data Center deployment,
-        workflow automation, API integrations,
-        and enterprise technical support.
-    </p>
+            <span class="intro">
+                Hello, I'm
+            </span>
 
-</section>
+            <h1>
+                Vincent Christopher Lam
+            </h1>
 
-<!-- Skills -->
-<section id="skills">
-
-    <h2>Skills</h2>
-
-    <div class="skill-grid">
-
-        <div class="card">
-            <i class="fa-brands fa-atlassian"></i>
-            <h3>Atlassian</h3>
-            <p>Jira • Confluence • JSM • Bitbucket</p>
-        </div>
-
-        <div class="card">
-            <i class="fa-solid fa-cloud"></i>
-            <h3>Cloud</h3>
-            <p>AWS • Azure • Atlassian Cloud Migration</p>
-        </div>
-
-        <div class="card">
-            <i class="fa-solid fa-gears"></i>
-            <h3>Automation</h3>
-            <p>REST API • Groovy • Workflow Design</p>
-        </div>
-
-        <div class="card">
-            <i class="fa-solid fa-chart-line"></i>
-            <h3>Business Analysis</h3>
-            <p>Requirement Gathering • SDLC • Documentation</p>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- Experience -->
-<section id="experience">
-
-    <h2>Experience</h2>
-
-    <div class="timeline">
-
-        <div class="timeline-item">
-            <h3>System Analyst</h3>
-            <span>Atlassian Consultant</span>
+            <h2>
+                System Analyst | Atlassian Consultant
+            </h2>
 
             <p>
-                Implemented Jira and Confluence solutions,
-                migrated enterprise environments,
-                configured workflows,
-                integrated external systems,
-                and supported production deployments.
+
+                Experienced in Atlassian solutions, Jira Administration,
+                Confluence, Service Management, Cloud Migration,
+                SDLC implementation and enterprise workflow automation.
+
             </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary">
+                    View Projects
+                </a>
+
+                <a href="Vincent_Christopher_Lam_CV.pdf"
+                    class="btn secondary">
+
+                    Download CV
+
+                </a>
+
+            </div>
+
         </div>
 
-    </div>
+        <div class="hero-image">
 
-</section>
+            <img src="images/profile.jpg"
+                alt="Vincent Christopher Lam">
 
-<!-- Projects -->
-<section id="projects">
+        </div>
 
-    <h2>Featured Projects</h2>
+    </section>
 
-    <div class="project-grid">
+    <!-- ================= ABOUT ================= -->
 
-        <div class="project-card">
+    <section id="about">
 
-            <h3>Jira Cloud Migration</h3>
+        <h2 class="section-title">
+            About Me
+        </h2>
+
+        <div class="about-card">
 
             <p>
-                Migrated enterprise Jira Server to Atlassian Cloud while
-                preserving workflows, users, permissions,
-                and custom configurations.
+
+                I am an Information Systems graduate with professional
+                experience implementing Atlassian products across banking,
+                telecommunications, and government sectors.
+
             </p>
-
-            <a href="#">View Details</a>
-
-        </div>
-
-        <div class="project-card">
-
-            <h3>Service Management Portal</h3>
 
             <p>
-                Built customized Jira Service Management portals
-                with automation, SLAs, and approval workflows.
-            </p>
 
-            <a href="#">View Details</a>
+                My expertise includes Jira Administration,
+                Confluence Administration,
+                Jira Service Management,
+                Cloud Migration,
+                Data Center deployment,
+                REST API integration,
+                workflow automation,
+                technical consulting,
+                and enterprise support.
+
+            </p>
 
         </div>
 
-        <div class="project-card">
+    </section>
 
-            <h3>Workflow Automation</h3>
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills">
+
+        <h2 class="section-title">
+            Skills
+        </h2>
+
+        <div class="skills-grid">
+
+            <div class="card">
+
+                <i class="fa-brands fa-atlassian"></i>
+
+                <h3>Atlassian</h3>
+
+                <p>
+
+                    Jira<br>
+                    Confluence<br>
+                    Jira Service Management<br>
+                    Bitbucket
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-cloud"></i>
+
+                <h3>Cloud</h3>
+
+                <p>
+
+                    Atlassian Cloud<br>
+                    Azure<br>
+                    AWS
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-gears"></i>
+
+                <h3>Automation</h3>
+
+                <p>
+
+                    REST API<br>
+                    Workflow Automation<br>
+                    Groovy<br>
+                    SQL
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+                <h3>Business Analysis</h3>
+
+                <p>
+
+                    SDLC<br>
+                    Requirement Gathering<br>
+                    Documentation<br>
+                    Process Improvement
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects">
+
+        <h2 class="section-title">
+            Featured Projects
+        </h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <h3>
+                    Jira Cloud Migration
+                </h3>
+
+                <p>
+
+                    Migrated enterprise Jira environments from Server
+                    and Data Center to Atlassian Cloud while preserving
+                    workflows, permissions and configurations.
+
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>
+                    Jira Service Management
+                </h3>
+
+                <p>
+
+                    Designed service portals,
+                    SLA configurations,
+                    approval workflows
+                    and customer request types.
+
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>
+                    REST API Integration
+                </h3>
+
+                <p>
+
+                    Connected Jira with external enterprise applications
+                    using REST APIs and custom workflow automation.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+
+        <h2 class="section-title">
+            Contact
+        </h2>
+
+        <div class="contact-card">
 
             <p>
-                Designed workflow automations using JMWE,
-                ScriptRunner, REST APIs, and custom integrations.
+
+                Interested in working together?
+
             </p>
 
-            <a href="#">View Details</a>
+            <div class="socials">
+
+                <a href="mailto:vcl3303@gmail.com">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/vincent-c-lam/"
+                    target="_blank">
+
+                    <i class="fa-brands fa-linkedin"></i>
+
+                </a>
+
+                <a href="https://github.com/"
+                    target="_blank">
+
+                    <i class="fa-brands fa-github"></i>
+
+                </a>
+
+            </div>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+    <!-- ================= FOOTER ================= -->
 
-<!-- Contact -->
-<section id="contact">
+    <footer>
 
-    <h2>Let's Connect</h2>
-
-    <p>
-        Interested in collaborating or discussing enterprise solutions?
-    </p>
-
-    <div class="socials">
-
-        <a href="mailto:vcl3303@gmail.com">
-            <i class="fa-solid fa-envelope"></i>
-        </a>
-
-        <a href="https://www.linkedin.com/in/vincent-c-lam/" target="_blank">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
-
-        <a href="https://github.com/" target="_blank">
-            <i class="fa-brands fa-github"></i>
-        </a>
-
-    </div>
-
-</section>
-
-<footer>
-
-    <p>
         © 2026 Vincent Christopher Lam
-    </p>
 
-</footer>
+    </footer>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
