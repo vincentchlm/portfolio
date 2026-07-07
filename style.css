@@ -631,6 +631,18 @@ button{
     text-align:center;
 }
 
+.projecttech-stack{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.projecttech-stack span{
+    min-width:140px;
+    padding:10px 16px;
+    border-radius:999px;
+}
+
 .view-all-projects{
 
     margin-top:60px;
