@@ -618,31 +618,22 @@ button{
 }
 
 .tech-stack{
-
-    display:flex;
-
-    flex-wrap:wrap;
-
-    gap:10px;
-
-    margin-top:10px;
-
+   display:flex;
+   flex-wrap:wrap;
+   gap:12px;
+   justify-content:center;
+   margin-top:10px;
 }
 
 .tech-stack span{
-
-    background:var(--primary);
-
-    color:white;
-
-    padding:8px 16px;
-
-    border-radius:999px;
-
-    font-size:.85rem;
-
-    font-weight:500;
-
+   min-width:140px;
+   padding:10px 16px;
+   border-radius:999px;
+   text-align:center;
+   background:var(--primary);
+   color:white;
+   font-size:.85rem;
+   font-weight:500;
 }
 
 .view-all-projects{
