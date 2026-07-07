@@ -700,6 +700,16 @@ button{
 
 }
 
+.project-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
 /* ==========================================
    CONTACT
 ========================================== */
@@ -1014,6 +1024,12 @@ footer{
         padding:25px;
 
     }
+
+   .project-grid{
+
+    grid-template-columns:1fr;
+
+   }
 
     .contact-card{
 
