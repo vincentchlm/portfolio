@@ -1,44 +1,44 @@
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const FEATURED_PROJECTS = [
   {
-    title: 'Enterprise Jira Cloud Migration',
-    industry: 'Insurance Industry',
-    role: 'Business Analyst • System Analyst • Atlassian Consultant',
+    title: "Enterprise Jira Cloud Migration",
+    industry: "Insurance Industry",
+    role: "Business Analyst • System Analyst • Atlassian Consultant",
     responsibilities: [
-      'Gathered migration requirements from business stakeholders.',
-      'Designed the migration strategy and execution plan.',
-      'Migrated Jira Data Center to Atlassian Cloud.',
-      'Validated migrated projects, workflows, and user permissions.',
-      'Supported production deployment and post-migration activities.',
+      "Gathered migration requirements from business stakeholders.",
+      "Designed the migration strategy and execution plan.",
+      "Migrated Jira Data Center to Atlassian Cloud.",
+      "Validated migrated projects, workflows, and user permissions.",
+      "Supported production deployment and post-migration activities.",
     ],
-    tech: ['Jira', 'Confluence', 'Cloud Migration Assistant', 'REST API'],
+    tech: ["Jira", "Confluence", "Cloud Migration Assistant", "REST API"],
   },
   {
-    title: 'Jira Service Management Implementation',
-    industry: 'Government',
-    role: 'System Analyst • Implementation Consultant • Trainer',
+    title: "Jira Service Management Implementation",
+    industry: "Government",
+    role: "System Analyst • Implementation Consultant • Trainer",
     responsibilities: [
-      'Gathered business requirements and designed ITSM workflows.',
-      'Implemented Jira Service Management and Atlassian Rovo (AI).',
-      'Configured automation rules, customer portals, and knowledge bases.',
-      'Conducted administrator and end-user training.',
+      "Gathered business requirements and designed ITSM workflows.",
+      "Implemented Jira Service Management and Atlassian Rovo (AI).",
+      "Configured automation rules, customer portals, and knowledge bases.",
+      "Conducted administrator and end-user training.",
     ],
-    tech: ['JSM', 'Rovo', 'Automation', 'Knowledge Base'],
+    tech: ["JSM", "Rovo", "Automation", "Knowledge Base"],
   },
   {
-    title: 'SDLC & Jira Software Implementation',
-    industry: 'Banks',
-    role: 'System Analyst • Implementer • Techical Writer',
+    title: "SDLC & Jira Software Implementation",
+    industry: "Banks",
+    role: "System Analyst • Implementer • Techical Writer",
     responsibilities: [
-      'Analyzed business requirements and optimized SDLC workflows.',
-      'Configured Jira Software projects, workflows, and Agile boards.',
-      'Implemented Confluence for documentation and approval workflows.',
-      'Supported testing, production deployment, and user training.',
+      "Analyzed business requirements and optimized SDLC workflows.",
+      "Configured Jira Software projects, workflows, and Agile boards.",
+      "Implemented Confluence for documentation and approval workflows.",
+      "Supported testing, production deployment, and user training.",
     ],
-    tech: ['Jira', 'Confluence', 'Automation', 'Atlassian add-ons'],
+    tech: ["Jira", "Confluence", "Automation", "Atlassian add-ons"],
   },
-]
+];
 
 export function FeaturedProjects() {
   return (
@@ -88,5 +88,5 @@ export function FeaturedProjects() {
         </Link>
       </div>
     </section>
-  )
+  );
 }

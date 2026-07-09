@@ -1,0 +1,5 @@
+components > isi yang akan dipanggil oleh pages
+pages > isi yang akan dipanggil oleh app.jsx
+app.jsx > isi yang akan dipanggil oleh main
+main.jsx > file Utama
+index.css > file untuk set style
