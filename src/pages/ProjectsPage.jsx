@@ -16,7 +16,7 @@ function usePageFavicon(href) {
 
 export function ProjectsPage() {
   useScrollReveal();
-  usePageFavicon("/start-up.png");
+  usePageFavicon(`${import.meta.env.BASE_URL}start-up.png`);
 
   return (
     <>
