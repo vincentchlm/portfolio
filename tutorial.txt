@@ -6,5 +6,5 @@ index.css > file untuk set style
 
 
 pakai ini jika tidak bisa "run npm run dev":
-p
+
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
