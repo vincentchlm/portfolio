@@ -4,7 +4,6 @@ app.jsx > isi yang akan dipanggil oleh main
 main.jsx > file Utama
 index.css > file untuk set style
 
-
 pakai ini jika tidak bisa "run npm run dev":
 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
