@@ -19,7 +19,7 @@ export function Hero() {
           </a>
 
           <a
-            href="/Vincent Christopher Lam-resume.pdf"
+            href={`${import.meta.env.BASE_URL}Vincent Christopher Lam-resume.pdf`}
             className="btn secondary"
           >
             Download CV
@@ -28,8 +28,11 @@ export function Hero() {
       </div>
 
       <div className="hero-image">
-        <img src="/Me.JPG" alt="Vincent Christopher Lam" />
+        <img
+          src={`${import.meta.env.BASE_URL}Me.JPG`}
+          alt="Vincent Christopher Lam"
+        />
       </div>
     </section>
-  )
+  );
 }
